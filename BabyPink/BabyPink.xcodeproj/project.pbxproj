@@ -1,0 +1,1170 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		800160B4201D900000B212CF /* ReachabilityHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800160B3201D900000B212CF /* ReachabilityHelper.swift */; };
+		800AD300201AE76500816B25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD2FF201AE76500816B25 /* AppDelegate.swift */; };
+		800AD302201AE76500816B25 /* CountryPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD301201AE76500816B25 /* CountryPageViewController.swift */; };
+		800AD305201AE76500816B25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800AD303201AE76500816B25 /* Main.storyboard */; };
+		800AD308201AE76500816B25 /* BabyPink.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 800AD306201AE76500816B25 /* BabyPink.xcdatamodeld */; };
+		800AD30A201AE76500816B25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 800AD309201AE76500816B25 /* Assets.xcassets */; };
+		800AD30D201AE76500816B25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800AD30B201AE76500816B25 /* LaunchScreen.storyboard */; };
+		800AD318201AE76500816B25 /* BabyPinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD317201AE76500816B25 /* BabyPinkTests.swift */; };
+		800AD323201AE76500816B25 /* BabyPinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD322201AE76500816B25 /* BabyPinkUITests.swift */; };
+		800AD334201AEF9000816B25 /* UIView+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD333201AEF9000816B25 /* UIView+extensions.swift */; };
+		800AD336201AEFFF00816B25 /* AppUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD335201AEFFF00816B25 /* AppUtil.swift */; };
+		800AD339201AF35F00816B25 /* DropDownOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD338201AF35F00816B25 /* DropDownOptionsView.swift */; };
+		800AD33C201AF49700816B25 /* DropDownOptionsView+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD33B201AF49700816B25 /* DropDownOptionsView+extensions.swift */; };
+		800AD33E201AF68700816B25 /* CountryPage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD33D201AF68700816B25 /* CountryPage+Extensions.swift */; };
+		800AD341201AFA6F00816B25 /* HomeScreenBuilderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD340201AFA6F00816B25 /* HomeScreenBuilderProtocol.swift */; };
+		800AD344201AFAF100816B25 /* HomeScreenBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD343201AFAF100816B25 /* HomeScreenBuilder.swift */; };
+		800AD346201AFB0C00816B25 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD345201AFB0C00816B25 /* HomeScreenViewController.swift */; };
+		800AD348201AFB6000816B25 /* HomeScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD347201AFB6000816B25 /* HomeScreenPresenter.swift */; };
+		800AD34A201AFB8300816B25 /* HomeScreenInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD349201AFB8300816B25 /* HomeScreenInteractor.swift */; };
+		800AD34C201AFBAB00816B25 /* HomeScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD34B201AFBAB00816B25 /* HomeScreenRouter.swift */; };
+		800AD353201AFD9700816B25 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD352201AFD9700816B25 /* Entity.swift */; };
+		800AD356201AFDD900816B25 /* DataServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD355201AFDD900816B25 /* DataServiceProvider.swift */; };
+		800AD359201B079400816B25 /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD358201B079400816B25 /* NetworkLayer.swift */; };
+		80793311201B3BBF004484E2 /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80793310201B3BBF004484E2 /* ProductListView.swift */; };
+		80793314201B3C4C004484E2 /* ProductListView+CollectionViewDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80793313201B3C4C004484E2 /* ProductListView+CollectionViewDatasource.swift */; };
+		80793316201B3C92004484E2 /* ProductListView+CollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80793315201B3C92004484E2 /* ProductListView+CollectionViewDelegate.swift */; };
+		80793318201B3CBE004484E2 /* ProductListView+CollectionViewDelegateFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80793317201B3CBE004484E2 /* ProductListView+CollectionViewDelegateFlowLayout.swift */; };
+		8079331A201B3DA6004484E2 /* ProductCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80793319201B3DA6004484E2 /* ProductCollectionCell.swift */; };
+		8079331C201B6F4D004484E2 /* DropDownOptionsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8079331B201B6F4D004484E2 /* DropDownOptionsHeaderView.swift */; };
+		8079331E201B74DA004484E2 /* HomeScreenVC+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8079331D201B74DA004484E2 /* HomeScreenVC+extensions.swift */; };
+		80793321201B7CD3004484E2 /* ProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80793320201B7CD3004484E2 /* ProductDetailsViewController.swift */; };
+		80793325201B88C9004484E2 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80793324201B88C9004484E2 /* TopView.swift */; };
+		80BBE477202A0E6E00C4587C /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80793324201B88C9004484E2 /* TopView.swift */; };
+		80BBE478202A0E6E00C4587C /* HomeScreenBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD343201AFAF100816B25 /* HomeScreenBuilder.swift */; };
+		80BBE479202A0E6E00C4587C /* ProductCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80793319201B3DA6004484E2 /* ProductCollectionCell.swift */; };
+		80BBE47A202A0E6E00C4587C /* DropDownUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DB2840201C17E300C6BE7C /* DropDownUI.swift */; };
+		80BBE47B202A0E6E00C4587C /* HomeScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD347201AFB6000816B25 /* HomeScreenPresenter.swift */; };
+		80BBE47C202A0E6E00C4587C /* ProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80793320201B7CD3004484E2 /* ProductDetailsViewController.swift */; };
+		80BBE47D202A0E6E00C4587C /* BabyPink.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 800AD306201AE76500816B25 /* BabyPink.xcdatamodeld */; };
+		80BBE47E202A0E6E00C4587C /* ProductListView+CollectionViewDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80793313201B3C4C004484E2 /* ProductListView+CollectionViewDatasource.swift */; };
+		80BBE47F202A0E6E00C4587C /* CountryPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD301201AE76500816B25 /* CountryPageViewController.swift */; };
+		80BBE480202A0E6E00C4587C /* DropDownOptionsView+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD33B201AF49700816B25 /* DropDownOptionsView+extensions.swift */; };
+		80BBE481202A0E6E00C4587C /* CountryPage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD33D201AF68700816B25 /* CountryPage+Extensions.swift */; };
+		80BBE482202A0E6E00C4587C /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80793310201B3BBF004484E2 /* ProductListView.swift */; };
+		80BBE483202A0E6E00C4587C /* ProductListView+CollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80793315201B3C92004484E2 /* ProductListView+CollectionViewDelegate.swift */; };
+		80BBE484202A0E6E00C4587C /* ProductListView+CollectionViewDelegateFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80793317201B3CBE004484E2 /* ProductListView+CollectionViewDelegateFlowLayout.swift */; };
+		80BBE485202A0E6E00C4587C /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DB2842201C401500C6BE7C /* ProductViewModel.swift */; };
+		80BBE486202A0E6E00C4587C /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD345201AFB0C00816B25 /* HomeScreenViewController.swift */; };
+		80BBE487202A0E6E00C4587C /* HomeScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD34B201AFBAB00816B25 /* HomeScreenRouter.swift */; };
+		80BBE488202A0E6E00C4587C /* UIView+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD333201AEF9000816B25 /* UIView+extensions.swift */; };
+		80BBE489202A0E6E00C4587C /* HomeScreenBuilderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD340201AFA6F00816B25 /* HomeScreenBuilderProtocol.swift */; };
+		80BBE48A202A0E6E00C4587C /* DataServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD355201AFDD900816B25 /* DataServiceProvider.swift */; };
+		80BBE48B202A0E6E00C4587C /* DropDownOptionsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8079331B201B6F4D004484E2 /* DropDownOptionsHeaderView.swift */; };
+		80BBE48C202A0E6E00C4587C /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD358201B079400816B25 /* NetworkLayer.swift */; };
+		80BBE48D202A0E6E00C4587C /* AppUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD335201AEFFF00816B25 /* AppUtil.swift */; };
+		80BBE48E202A0E6E00C4587C /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD352201AFD9700816B25 /* Entity.swift */; };
+		80BBE48F202A0E6E00C4587C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD2FF201AE76500816B25 /* AppDelegate.swift */; };
+		80BBE490202A0E6E00C4587C /* HomeScreenVC+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8079331D201B74DA004484E2 /* HomeScreenVC+extensions.swift */; };
+		80BBE491202A0E6E00C4587C /* ProductDetailsVC+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DB2845201C5F9E00C6BE7C /* ProductDetailsVC+extensions.swift */; };
+		80BBE492202A0E6E00C4587C /* HomeScreenInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD349201AFB8300816B25 /* HomeScreenInteractor.swift */; };
+		80BBE493202A0E6E00C4587C /* ReachabilityHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800160B3201D900000B212CF /* ReachabilityHelper.swift */; };
+		80BBE494202A0E6E00C4587C /* DropDownOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD338201AF35F00816B25 /* DropDownOptionsView.swift */; };
+		80BBE497202A0E6E00C4587C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800AD30B201AE76500816B25 /* LaunchScreen.storyboard */; };
+		80BBE498202A0E6E00C4587C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 800AD309201AE76500816B25 /* Assets.xcassets */; };
+		80BBE499202A0E6E00C4587C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800AD303201AE76500816B25 /* Main.storyboard */; };
+		80DB2841201C17E300C6BE7C /* DropDownUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DB2840201C17E300C6BE7C /* DropDownUI.swift */; };
+		80DB2843201C401500C6BE7C /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DB2842201C401500C6BE7C /* ProductViewModel.swift */; };
+		80DB2846201C5F9E00C6BE7C /* ProductDetailsVC+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DB2845201C5F9E00C6BE7C /* ProductDetailsVC+extensions.swift */; };
+		80DB2848201CB23100C6BE7C /* BabyPinkTests+ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DB2847201CB23100C6BE7C /* BabyPinkTests+ProductCell.swift */; };
+		80DB284A201CB91300C6BE7C /* BabyPinkTests+ProductDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DB2849201CB91300C6BE7C /* BabyPinkTests+ProductDetailsVC.swift */; };
+		80DB284C201CC4D200C6BE7C /* BabyPinkTests+Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DB284B201CC4D200C6BE7C /* BabyPinkTests+Entity.swift */; };
+		80DB284E201CCC8100C6BE7C /* BabyPinkTests+NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DB284D201CCC8100C6BE7C /* BabyPinkTests+NetworkLayer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		800AD314201AE76500816B25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 800AD2F4201AE76500816B25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 800AD2FB201AE76500816B25;
+			remoteInfo = BabyPink;
+		};
+		800AD31F201AE76500816B25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 800AD2F4201AE76500816B25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 800AD2FB201AE76500816B25;
+			remoteInfo = BabyPink;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		800160B3201D900000B212CF /* ReachabilityHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityHelper.swift; sourceTree = "<group>"; };
+		800AD2FC201AE76500816B25 /* BabyPink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyPink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		800AD2FF201AE76500816B25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		800AD301201AE76500816B25 /* CountryPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPageViewController.swift; sourceTree = "<group>"; };
+		800AD304201AE76500816B25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		800AD307201AE76500816B25 /* BabyPink.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BabyPink.xcdatamodel; sourceTree = "<group>"; };
+		800AD309201AE76500816B25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		800AD30C201AE76500816B25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		800AD30E201AE76500816B25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		800AD313201AE76500816B25 /* BabyPinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabyPinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		800AD317201AE76500816B25 /* BabyPinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyPinkTests.swift; sourceTree = "<group>"; };
+		800AD319201AE76500816B25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		800AD31E201AE76500816B25 /* BabyPinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabyPinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		800AD322201AE76500816B25 /* BabyPinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyPinkUITests.swift; sourceTree = "<group>"; };
+		800AD324201AE76500816B25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		800AD333201AEF9000816B25 /* UIView+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+extensions.swift"; sourceTree = "<group>"; };
+		800AD335201AEFFF00816B25 /* AppUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtil.swift; sourceTree = "<group>"; };
+		800AD338201AF35F00816B25 /* DropDownOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownOptionsView.swift; sourceTree = "<group>"; };
+		800AD33B201AF49700816B25 /* DropDownOptionsView+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DropDownOptionsView+extensions.swift"; sourceTree = "<group>"; };
+		800AD33D201AF68700816B25 /* CountryPage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CountryPage+Extensions.swift"; sourceTree = "<group>"; };
+		800AD340201AFA6F00816B25 /* HomeScreenBuilderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenBuilderProtocol.swift; sourceTree = "<group>"; };
+		800AD343201AFAF100816B25 /* HomeScreenBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenBuilder.swift; sourceTree = "<group>"; };
+		800AD345201AFB0C00816B25 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		800AD347201AFB6000816B25 /* HomeScreenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenPresenter.swift; sourceTree = "<group>"; };
+		800AD349201AFB8300816B25 /* HomeScreenInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenInteractor.swift; sourceTree = "<group>"; };
+		800AD34B201AFBAB00816B25 /* HomeScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenRouter.swift; sourceTree = "<group>"; };
+		800AD352201AFD9700816B25 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		800AD355201AFDD900816B25 /* DataServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServiceProvider.swift; sourceTree = "<group>"; };
+		800AD358201B079400816B25 /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
+		80793310201B3BBF004484E2 /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
+		80793313201B3C4C004484E2 /* ProductListView+CollectionViewDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProductListView+CollectionViewDatasource.swift"; sourceTree = "<group>"; };
+		80793315201B3C92004484E2 /* ProductListView+CollectionViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProductListView+CollectionViewDelegate.swift"; sourceTree = "<group>"; };
+		80793317201B3CBE004484E2 /* ProductListView+CollectionViewDelegateFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProductListView+CollectionViewDelegateFlowLayout.swift"; sourceTree = "<group>"; };
+		80793319201B3DA6004484E2 /* ProductCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionCell.swift; sourceTree = "<group>"; };
+		8079331B201B6F4D004484E2 /* DropDownOptionsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownOptionsHeaderView.swift; sourceTree = "<group>"; };
+		8079331D201B74DA004484E2 /* HomeScreenVC+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeScreenVC+extensions.swift"; sourceTree = "<group>"; };
+		80793320201B7CD3004484E2 /* ProductDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewController.swift; sourceTree = "<group>"; };
+		80793324201B88C9004484E2 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		80BBE4742029FFB700C4587C /* Stage.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Stage.xcconfig; sourceTree = "<group>"; };
+		80BBE49E202A0E6E00C4587C /* BabyPink Stage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BabyPink Stage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80BBE49F202A0E6E00C4587C /* BabyPink Stage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BabyPink Stage-Info.plist"; path = "/Users/ashis.laha/Documents/MyApp/WalmartTest/WalmartLabs/BabyPink/BabyPink Stage-Info.plist"; sourceTree = "<absolute>"; };
+		80DB2840201C17E300C6BE7C /* DropDownUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownUI.swift; sourceTree = "<group>"; };
+		80DB2842201C401500C6BE7C /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		80DB2845201C5F9E00C6BE7C /* ProductDetailsVC+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProductDetailsVC+extensions.swift"; sourceTree = "<group>"; };
+		80DB2847201CB23100C6BE7C /* BabyPinkTests+ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BabyPinkTests+ProductCell.swift"; sourceTree = "<group>"; };
+		80DB2849201CB91300C6BE7C /* BabyPinkTests+ProductDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BabyPinkTests+ProductDetailsVC.swift"; sourceTree = "<group>"; };
+		80DB284B201CC4D200C6BE7C /* BabyPinkTests+Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BabyPinkTests+Entity.swift"; sourceTree = "<group>"; };
+		80DB284D201CCC8100C6BE7C /* BabyPinkTests+NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BabyPinkTests+NetworkLayer.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		800AD2F9201AE76500816B25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800AD310201AE76500816B25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800AD31B201AE76500816B25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80BBE495202A0E6E00C4587C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		800AD2F3201AE76500816B25 = {
+			isa = PBXGroup;
+			children = (
+				80BBE4742029FFB700C4587C /* Stage.xcconfig */,
+				800AD2FE201AE76500816B25 /* BabyPink */,
+				800AD316201AE76500816B25 /* BabyPinkTests */,
+				800AD321201AE76500816B25 /* BabyPinkUITests */,
+				800AD2FD201AE76500816B25 /* Products */,
+				80BBE49F202A0E6E00C4587C /* BabyPink Stage-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		800AD2FD201AE76500816B25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				800AD2FC201AE76500816B25 /* BabyPink.app */,
+				800AD313201AE76500816B25 /* BabyPinkTests.xctest */,
+				800AD31E201AE76500816B25 /* BabyPinkUITests.xctest */,
+				80BBE49E202A0E6E00C4587C /* BabyPink Stage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		800AD2FE201AE76500816B25 /* BabyPink */ = {
+			isa = PBXGroup;
+			children = (
+				800AD2FF201AE76500816B25 /* AppDelegate.swift */,
+				800AD33F201AF9E900816B25 /* App Utility */,
+				800AD332201AEDF800816B25 /* CountryPage */,
+				800AD342201AFAB400816B25 /* HomeScreen */,
+				80793322201B7CDC004484E2 /* Product Details */,
+				800AD330201AE77800816B25 /* StoryBoard, assets */,
+				800AD30E201AE76500816B25 /* Info.plist */,
+				800AD331201AE78E00816B25 /* CoreData (not used) */,
+			);
+			path = BabyPink;
+			sourceTree = "<group>";
+		};
+		800AD316201AE76500816B25 /* BabyPinkTests */ = {
+			isa = PBXGroup;
+			children = (
+				800AD317201AE76500816B25 /* BabyPinkTests.swift */,
+				80DB2847201CB23100C6BE7C /* BabyPinkTests+ProductCell.swift */,
+				80DB2849201CB91300C6BE7C /* BabyPinkTests+ProductDetailsVC.swift */,
+				80DB284B201CC4D200C6BE7C /* BabyPinkTests+Entity.swift */,
+				80DB284D201CCC8100C6BE7C /* BabyPinkTests+NetworkLayer.swift */,
+				800AD319201AE76500816B25 /* Info.plist */,
+			);
+			path = BabyPinkTests;
+			sourceTree = "<group>";
+		};
+		800AD321201AE76500816B25 /* BabyPinkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				800AD322201AE76500816B25 /* BabyPinkUITests.swift */,
+				800AD324201AE76500816B25 /* Info.plist */,
+			);
+			path = BabyPinkUITests;
+			sourceTree = "<group>";
+		};
+		800AD330201AE77800816B25 /* StoryBoard, assets */ = {
+			isa = PBXGroup;
+			children = (
+				800AD303201AE76500816B25 /* Main.storyboard */,
+				800AD309201AE76500816B25 /* Assets.xcassets */,
+				800AD30B201AE76500816B25 /* LaunchScreen.storyboard */,
+			);
+			path = "StoryBoard, assets";
+			sourceTree = "<group>";
+		};
+		800AD331201AE78E00816B25 /* CoreData (not used) */ = {
+			isa = PBXGroup;
+			children = (
+				800AD306201AE76500816B25 /* BabyPink.xcdatamodeld */,
+			);
+			path = "CoreData (not used)";
+			sourceTree = "<group>";
+		};
+		800AD332201AEDF800816B25 /* CountryPage */ = {
+			isa = PBXGroup;
+			children = (
+				800AD337201AF34B00816B25 /* Controller */,
+			);
+			path = CountryPage;
+			sourceTree = "<group>";
+		};
+		800AD337201AF34B00816B25 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				800AD301201AE76500816B25 /* CountryPageViewController.swift */,
+				800AD33D201AF68700816B25 /* CountryPage+Extensions.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		800AD33A201AF39D00816B25 /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				80DB284F201CCF5500C6BE7C /* UI */,
+				80DB283F201C177400C6BE7C /* Options */,
+			);
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		800AD33F201AF9E900816B25 /* App Utility */ = {
+			isa = PBXGroup;
+			children = (
+				800AD333201AEF9000816B25 /* UIView+extensions.swift */,
+				800AD335201AEFFF00816B25 /* AppUtil.swift */,
+				800160B3201D900000B212CF /* ReachabilityHelper.swift */,
+				80793326201B88E0004484E2 /* TopView */,
+				800AD33A201AF39D00816B25 /* DropDown */,
+			);
+			path = "App Utility";
+			sourceTree = "<group>";
+		};
+		800AD342201AFAB400816B25 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				800AD340201AFA6F00816B25 /* HomeScreenBuilderProtocol.swift */,
+				800AD34D201AFC5700816B25 /* Builder */,
+				800AD34E201AFC6000816B25 /* View */,
+				800AD34F201AFC7E00816B25 /* Presenter */,
+				800AD350201AFC8500816B25 /* Interactor */,
+				800AD351201AFC8C00816B25 /* Router */,
+				800AD354201AFDA200816B25 /* Entity */,
+				800AD357201AFDDD00816B25 /* Service */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		800AD34D201AFC5700816B25 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				800AD343201AFAF100816B25 /* HomeScreenBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		800AD34E201AFC6000816B25 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8079330F201B3B8A004484E2 /* Controller */,
+				80793312201B3C01004484E2 /* Product List View */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		800AD34F201AFC7E00816B25 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				800AD347201AFB6000816B25 /* HomeScreenPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		800AD350201AFC8500816B25 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				800AD349201AFB8300816B25 /* HomeScreenInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		800AD351201AFC8C00816B25 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				800AD34B201AFBAB00816B25 /* HomeScreenRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		800AD354201AFDA200816B25 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				800AD352201AFD9700816B25 /* Entity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		800AD357201AFDDD00816B25 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				800AD355201AFDD900816B25 /* DataServiceProvider.swift */,
+				800AD358201B079400816B25 /* NetworkLayer.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8079330F201B3B8A004484E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				800AD345201AFB0C00816B25 /* HomeScreenViewController.swift */,
+				8079331D201B74DA004484E2 /* HomeScreenVC+extensions.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		80793312201B3C01004484E2 /* Product List View */ = {
+			isa = PBXGroup;
+			children = (
+				80793310201B3BBF004484E2 /* ProductListView.swift */,
+				80793313201B3C4C004484E2 /* ProductListView+CollectionViewDatasource.swift */,
+				80793315201B3C92004484E2 /* ProductListView+CollectionViewDelegate.swift */,
+				80793317201B3CBE004484E2 /* ProductListView+CollectionViewDelegateFlowLayout.swift */,
+				8079331F201B768F004484E2 /* Cell */,
+			);
+			path = "Product List View";
+			sourceTree = "<group>";
+		};
+		8079331F201B768F004484E2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				80793319201B3DA6004484E2 /* ProductCollectionCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		80793322201B7CDC004484E2 /* Product Details */ = {
+			isa = PBXGroup;
+			children = (
+				80793323201B7EBF004484E2 /* Controller */,
+				80DB2844201C405700C6BE7C /* View Model */,
+			);
+			path = "Product Details";
+			sourceTree = "<group>";
+		};
+		80793323201B7EBF004484E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				80793320201B7CD3004484E2 /* ProductDetailsViewController.swift */,
+				80DB2845201C5F9E00C6BE7C /* ProductDetailsVC+extensions.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		80793326201B88E0004484E2 /* TopView */ = {
+			isa = PBXGroup;
+			children = (
+				80793324201B88C9004484E2 /* TopView.swift */,
+			);
+			path = TopView;
+			sourceTree = "<group>";
+		};
+		80DB283F201C177400C6BE7C /* Options */ = {
+			isa = PBXGroup;
+			children = (
+				800AD338201AF35F00816B25 /* DropDownOptionsView.swift */,
+				8079331B201B6F4D004484E2 /* DropDownOptionsHeaderView.swift */,
+				800AD33B201AF49700816B25 /* DropDownOptionsView+extensions.swift */,
+			);
+			path = Options;
+			sourceTree = "<group>";
+		};
+		80DB2844201C405700C6BE7C /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				80DB2842201C401500C6BE7C /* ProductViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		80DB284F201CCF5500C6BE7C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				80DB2840201C17E300C6BE7C /* DropDownUI.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		800AD2FB201AE76500816B25 /* BabyPink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 800AD327201AE76500816B25 /* Build configuration list for PBXNativeTarget "BabyPink" */;
+			buildPhases = (
+				800AD2F8201AE76500816B25 /* Sources */,
+				800AD2F9201AE76500816B25 /* Frameworks */,
+				800AD2FA201AE76500816B25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BabyPink;
+			productName = BabyPink;
+			productReference = 800AD2FC201AE76500816B25 /* BabyPink.app */;
+			productType = "com.apple.product-type.application";
+		};
+		800AD312201AE76500816B25 /* BabyPinkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 800AD32A201AE76500816B25 /* Build configuration list for PBXNativeTarget "BabyPinkTests" */;
+			buildPhases = (
+				800AD30F201AE76500816B25 /* Sources */,
+				800AD310201AE76500816B25 /* Frameworks */,
+				800AD311201AE76500816B25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				800AD315201AE76500816B25 /* PBXTargetDependency */,
+			);
+			name = BabyPinkTests;
+			productName = BabyPinkTests;
+			productReference = 800AD313201AE76500816B25 /* BabyPinkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		800AD31D201AE76500816B25 /* BabyPinkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 800AD32D201AE76500816B25 /* Build configuration list for PBXNativeTarget "BabyPinkUITests" */;
+			buildPhases = (
+				800AD31A201AE76500816B25 /* Sources */,
+				800AD31B201AE76500816B25 /* Frameworks */,
+				800AD31C201AE76500816B25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				800AD320201AE76500816B25 /* PBXTargetDependency */,
+			);
+			name = BabyPinkUITests;
+			productName = BabyPinkUITests;
+			productReference = 800AD31E201AE76500816B25 /* BabyPinkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		80BBE475202A0E6E00C4587C /* BabyPink Stage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80BBE49A202A0E6E00C4587C /* Build configuration list for PBXNativeTarget "BabyPink Stage" */;
+			buildPhases = (
+				80BBE476202A0E6E00C4587C /* Sources */,
+				80BBE495202A0E6E00C4587C /* Frameworks */,
+				80BBE496202A0E6E00C4587C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BabyPink Stage";
+			productName = BabyPink;
+			productReference = 80BBE49E202A0E6E00C4587C /* BabyPink Stage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		800AD2F4201AE76500816B25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Ashis Laha";
+				TargetAttributes = {
+					800AD2FB201AE76500816B25 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					800AD312201AE76500816B25 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 800AD2FB201AE76500816B25;
+					};
+					800AD31D201AE76500816B25 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 800AD2FB201AE76500816B25;
+					};
+					80BBE475202A0E6E00C4587C = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 800AD2F7201AE76500816B25 /* Build configuration list for PBXProject "BabyPink" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 800AD2F3201AE76500816B25;
+			productRefGroup = 800AD2FD201AE76500816B25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				800AD2FB201AE76500816B25 /* BabyPink */,
+				800AD312201AE76500816B25 /* BabyPinkTests */,
+				800AD31D201AE76500816B25 /* BabyPinkUITests */,
+				80BBE475202A0E6E00C4587C /* BabyPink Stage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		800AD2FA201AE76500816B25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800AD30D201AE76500816B25 /* LaunchScreen.storyboard in Resources */,
+				800AD30A201AE76500816B25 /* Assets.xcassets in Resources */,
+				800AD305201AE76500816B25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800AD311201AE76500816B25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800AD31C201AE76500816B25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80BBE496202A0E6E00C4587C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80BBE497202A0E6E00C4587C /* LaunchScreen.storyboard in Resources */,
+				80BBE498202A0E6E00C4587C /* Assets.xcassets in Resources */,
+				80BBE499202A0E6E00C4587C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		800AD2F8201AE76500816B25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80793325201B88C9004484E2 /* TopView.swift in Sources */,
+				800AD344201AFAF100816B25 /* HomeScreenBuilder.swift in Sources */,
+				8079331A201B3DA6004484E2 /* ProductCollectionCell.swift in Sources */,
+				80DB2841201C17E300C6BE7C /* DropDownUI.swift in Sources */,
+				800AD348201AFB6000816B25 /* HomeScreenPresenter.swift in Sources */,
+				80793321201B7CD3004484E2 /* ProductDetailsViewController.swift in Sources */,
+				800AD308201AE76500816B25 /* BabyPink.xcdatamodeld in Sources */,
+				80793314201B3C4C004484E2 /* ProductListView+CollectionViewDatasource.swift in Sources */,
+				800AD302201AE76500816B25 /* CountryPageViewController.swift in Sources */,
+				800AD33C201AF49700816B25 /* DropDownOptionsView+extensions.swift in Sources */,
+				800AD33E201AF68700816B25 /* CountryPage+Extensions.swift in Sources */,
+				80793311201B3BBF004484E2 /* ProductListView.swift in Sources */,
+				80793316201B3C92004484E2 /* ProductListView+CollectionViewDelegate.swift in Sources */,
+				80793318201B3CBE004484E2 /* ProductListView+CollectionViewDelegateFlowLayout.swift in Sources */,
+				80DB2843201C401500C6BE7C /* ProductViewModel.swift in Sources */,
+				800AD346201AFB0C00816B25 /* HomeScreenViewController.swift in Sources */,
+				800AD34C201AFBAB00816B25 /* HomeScreenRouter.swift in Sources */,
+				800AD334201AEF9000816B25 /* UIView+extensions.swift in Sources */,
+				800AD341201AFA6F00816B25 /* HomeScreenBuilderProtocol.swift in Sources */,
+				800AD356201AFDD900816B25 /* DataServiceProvider.swift in Sources */,
+				8079331C201B6F4D004484E2 /* DropDownOptionsHeaderView.swift in Sources */,
+				800AD359201B079400816B25 /* NetworkLayer.swift in Sources */,
+				800AD336201AEFFF00816B25 /* AppUtil.swift in Sources */,
+				800AD353201AFD9700816B25 /* Entity.swift in Sources */,
+				800AD300201AE76500816B25 /* AppDelegate.swift in Sources */,
+				8079331E201B74DA004484E2 /* HomeScreenVC+extensions.swift in Sources */,
+				80DB2846201C5F9E00C6BE7C /* ProductDetailsVC+extensions.swift in Sources */,
+				800AD34A201AFB8300816B25 /* HomeScreenInteractor.swift in Sources */,
+				800160B4201D900000B212CF /* ReachabilityHelper.swift in Sources */,
+				800AD339201AF35F00816B25 /* DropDownOptionsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800AD30F201AE76500816B25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80DB284C201CC4D200C6BE7C /* BabyPinkTests+Entity.swift in Sources */,
+				80DB284E201CCC8100C6BE7C /* BabyPinkTests+NetworkLayer.swift in Sources */,
+				80DB284A201CB91300C6BE7C /* BabyPinkTests+ProductDetailsVC.swift in Sources */,
+				800AD318201AE76500816B25 /* BabyPinkTests.swift in Sources */,
+				80DB2848201CB23100C6BE7C /* BabyPinkTests+ProductCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800AD31A201AE76500816B25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800AD323201AE76500816B25 /* BabyPinkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80BBE476202A0E6E00C4587C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80BBE477202A0E6E00C4587C /* TopView.swift in Sources */,
+				80BBE478202A0E6E00C4587C /* HomeScreenBuilder.swift in Sources */,
+				80BBE479202A0E6E00C4587C /* ProductCollectionCell.swift in Sources */,
+				80BBE47A202A0E6E00C4587C /* DropDownUI.swift in Sources */,
+				80BBE47B202A0E6E00C4587C /* HomeScreenPresenter.swift in Sources */,
+				80BBE47C202A0E6E00C4587C /* ProductDetailsViewController.swift in Sources */,
+				80BBE47D202A0E6E00C4587C /* BabyPink.xcdatamodeld in Sources */,
+				80BBE47E202A0E6E00C4587C /* ProductListView+CollectionViewDatasource.swift in Sources */,
+				80BBE47F202A0E6E00C4587C /* CountryPageViewController.swift in Sources */,
+				80BBE480202A0E6E00C4587C /* DropDownOptionsView+extensions.swift in Sources */,
+				80BBE481202A0E6E00C4587C /* CountryPage+Extensions.swift in Sources */,
+				80BBE482202A0E6E00C4587C /* ProductListView.swift in Sources */,
+				80BBE483202A0E6E00C4587C /* ProductListView+CollectionViewDelegate.swift in Sources */,
+				80BBE484202A0E6E00C4587C /* ProductListView+CollectionViewDelegateFlowLayout.swift in Sources */,
+				80BBE485202A0E6E00C4587C /* ProductViewModel.swift in Sources */,
+				80BBE486202A0E6E00C4587C /* HomeScreenViewController.swift in Sources */,
+				80BBE487202A0E6E00C4587C /* HomeScreenRouter.swift in Sources */,
+				80BBE488202A0E6E00C4587C /* UIView+extensions.swift in Sources */,
+				80BBE489202A0E6E00C4587C /* HomeScreenBuilderProtocol.swift in Sources */,
+				80BBE48A202A0E6E00C4587C /* DataServiceProvider.swift in Sources */,
+				80BBE48B202A0E6E00C4587C /* DropDownOptionsHeaderView.swift in Sources */,
+				80BBE48C202A0E6E00C4587C /* NetworkLayer.swift in Sources */,
+				80BBE48D202A0E6E00C4587C /* AppUtil.swift in Sources */,
+				80BBE48E202A0E6E00C4587C /* Entity.swift in Sources */,
+				80BBE48F202A0E6E00C4587C /* AppDelegate.swift in Sources */,
+				80BBE490202A0E6E00C4587C /* HomeScreenVC+extensions.swift in Sources */,
+				80BBE491202A0E6E00C4587C /* ProductDetailsVC+extensions.swift in Sources */,
+				80BBE492202A0E6E00C4587C /* HomeScreenInteractor.swift in Sources */,
+				80BBE493202A0E6E00C4587C /* ReachabilityHelper.swift in Sources */,
+				80BBE494202A0E6E00C4587C /* DropDownOptionsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		800AD315201AE76500816B25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 800AD2FB201AE76500816B25 /* BabyPink */;
+			targetProxy = 800AD314201AE76500816B25 /* PBXContainerItemProxy */;
+		};
+		800AD320201AE76500816B25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 800AD2FB201AE76500816B25 /* BabyPink */;
+			targetProxy = 800AD31F201AE76500816B25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		800AD303201AE76500816B25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				800AD304201AE76500816B25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		800AD30B201AE76500816B25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				800AD30C201AE76500816B25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		800AD325201AE76500816B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		800AD326201AE76500816B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		800AD328201AE76500816B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3Z9URG96M;
+				INFOPLIST_FILE = BabyPink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--IS-APP-BUNDLE-ID-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		800AD329201AE76500816B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3Z9URG96M;
+				INFOPLIST_FILE = BabyPink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--IS-APP-BUNDLE-ID-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		800AD32B201AE76500816B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87F557PJ6U;
+				INFOPLIST_FILE = BabyPinkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashislaha.BabyPinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabyPink.app/BabyPink";
+			};
+			name = Debug;
+		};
+		800AD32C201AE76500816B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87F557PJ6U;
+				INFOPLIST_FILE = BabyPinkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashislaha.BabyPinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabyPink.app/BabyPink";
+			};
+			name = Release;
+		};
+		800AD32E201AE76500816B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87F557PJ6U;
+				INFOPLIST_FILE = BabyPinkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashislaha.BabyPinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BabyPink;
+			};
+			name = Debug;
+		};
+		800AD32F201AE76500816B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87F557PJ6U;
+				INFOPLIST_FILE = BabyPinkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashislaha.BabyPinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BabyPink;
+			};
+			name = Release;
+		};
+		80BBE4702029FF2E00C4587C /* Stage */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80BBE4742029FFB700C4587C /* Stage.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Stage;
+		};
+		80BBE4712029FF2E00C4587C /* Stage */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80BBE4742029FFB700C4587C /* Stage.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3Z9URG96M;
+				INFOPLIST_FILE = BabyPink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--IS-APP-BUNDLE-ID-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Stage;
+		};
+		80BBE4722029FF2E00C4587C /* Stage */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80BBE4742029FFB700C4587C /* Stage.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87F557PJ6U;
+				INFOPLIST_FILE = BabyPinkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashislaha.BabyPinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabyPink.app/BabyPink";
+			};
+			name = Stage;
+		};
+		80BBE4732029FF2E00C4587C /* Stage */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87F557PJ6U;
+				INFOPLIST_FILE = BabyPinkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashislaha.BabyPinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BabyPink;
+			};
+			name = Stage;
+		};
+		80BBE49B202A0E6E00C4587C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3Z9URG96M;
+				INFOPLIST_FILE = "BabyPink Stage-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--IS-APP-BUNDLE-ID-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80BBE49C202A0E6E00C4587C /* Stage */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80BBE4742029FFB700C4587C /* Stage.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3Z9URG96M;
+				INFOPLIST_FILE = "BabyPink Stage-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--IS-APP-BUNDLE-ID-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Stage;
+		};
+		80BBE49D202A0E6E00C4587C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3Z9URG96M;
+				INFOPLIST_FILE = "BabyPink Stage-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--IS-APP-BUNDLE-ID-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		800AD2F7201AE76500816B25 /* Build configuration list for PBXProject "BabyPink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800AD325201AE76500816B25 /* Debug */,
+				80BBE4702029FF2E00C4587C /* Stage */,
+				800AD326201AE76500816B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		800AD327201AE76500816B25 /* Build configuration list for PBXNativeTarget "BabyPink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800AD328201AE76500816B25 /* Debug */,
+				80BBE4712029FF2E00C4587C /* Stage */,
+				800AD329201AE76500816B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		800AD32A201AE76500816B25 /* Build configuration list for PBXNativeTarget "BabyPinkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800AD32B201AE76500816B25 /* Debug */,
+				80BBE4722029FF2E00C4587C /* Stage */,
+				800AD32C201AE76500816B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		800AD32D201AE76500816B25 /* Build configuration list for PBXNativeTarget "BabyPinkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800AD32E201AE76500816B25 /* Debug */,
+				80BBE4732029FF2E00C4587C /* Stage */,
+				800AD32F201AE76500816B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		80BBE49A202A0E6E00C4587C /* Build configuration list for PBXNativeTarget "BabyPink Stage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80BBE49B202A0E6E00C4587C /* Debug */,
+				80BBE49C202A0E6E00C4587C /* Stage */,
+				80BBE49D202A0E6E00C4587C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		800AD306201AE76500816B25 /* BabyPink.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				800AD307201AE76500816B25 /* BabyPink.xcdatamodel */,
+			);
+			currentVersion = 800AD307201AE76500816B25 /* BabyPink.xcdatamodel */;
+			path = BabyPink.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 800AD2F4201AE76500816B25 /* Project object */;
+}
